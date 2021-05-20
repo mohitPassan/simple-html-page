@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+form[name='batch_form'] {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid gray;
+    padding: 6em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px -3px rgb(184, 184, 184);
+}
+
+form[name='batch_form'] button {
+    font-size: 1.5rem;
+    padding: 0.8em 4em;
+    cursor: pointer;
+    border: none;
+    margin-top: 50px;
+
+    background-color: #00a3e8;
+    color: white;
+    border-radius: 5px;
+
+    order: 2;
+}
+
+form[name='batch_form'] button:active {
+    scale: 0.99;
+}
+
+form[name='batch_form'] label {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+form[name='batch_form'] input {
+    font-size: 1.2rem;
+    padding: 0.5em 0.5em;
+    padding-top: 0.8em;
+    border-radius: 5px;
+    border: 1px solid gray;
+}

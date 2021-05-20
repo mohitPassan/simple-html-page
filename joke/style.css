@@ -1,0 +1,50 @@
+body {
+    background-color: #a349a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+form[name='batch_form'] {
+    display: flex;
+    flex-direction: column;
+}
+
+form[name='batch_form'] button {
+    font-size: 1.5rem;
+    padding: 2em 7.5em;
+    cursor: pointer;
+    margin-bottom: 40px;
+    border: none;
+    padding-top: 2.8em;
+
+    /* background-color: #00a3e8; */
+    color: white;
+
+    background: url('./btn-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+form[name='batch_form'] button:active {
+    scale: 0.99;
+}
+
+form[name='batch_form'] label {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+form[name='batch_form'] input {
+    font-size: 1.2rem;
+    padding: 0.5em 0.5em;
+    border: none;
+    padding-top: 0.8em;
+
+    background: url('./input-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
